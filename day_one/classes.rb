@@ -18,7 +18,6 @@ class Robot
   end
 end
 
-
 class Bike
   attr_writer :name
   attr_writer :model
