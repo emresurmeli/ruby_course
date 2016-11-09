@@ -16,11 +16,11 @@ holidays_and_dates = {
 };
 
 def timeOfDay( time )
-  if time.hour <= 12
+  if time.hour < 12
     return "good morning"
   elsif time.hour >= 12 && time.hour <= 18
     return "good afternoon"
-  elsif time.hour >= 18
+  elsif time.hour > 18
     return "good evening"
   end
 end
