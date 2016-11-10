@@ -12,5 +12,3 @@ class Beer < Alcohol
     @calories = calories
   end
 end
-
-def
