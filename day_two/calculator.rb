@@ -52,5 +52,6 @@ class Calculator
     @operation = input[1]
     self.run_operation( @input_one, @input_two, @operation )
   end
+
 end
 
