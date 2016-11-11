@@ -11,7 +11,7 @@ class Elevator
   end
 
   def call_elevator
-    if @state == "ready"
+    if self.is_ready
       puts "What floor would you like to go to?"
       to_floor = gets.to_i
 
