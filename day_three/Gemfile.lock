@@ -1,0 +1,26 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    faraday (0.10.0)
+      multipart-post (>= 1.2, < 3)
+    geocoder (1.4.0)
+    geolocater (0.1.0)
+      faraday
+      json
+    json (2.0.2)
+    multipart-post (2.0.0)
+    rainbow (2.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  geocoder
+  geolocater
+  rainbow
+
+RUBY VERSION
+   ruby 2.2.2p95
+
+BUNDLED WITH
+   1.13.6

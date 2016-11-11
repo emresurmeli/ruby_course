@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+ruby '2.2.2'
+
+gem 'rainbow'
+gem 'geocoder'
+gem 'geolocater'
