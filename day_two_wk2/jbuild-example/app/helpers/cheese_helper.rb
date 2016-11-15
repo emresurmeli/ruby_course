@@ -1,0 +1,2 @@
+module CheeseHelper
+end
