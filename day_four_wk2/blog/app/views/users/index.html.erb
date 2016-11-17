@@ -1,0 +1,19 @@
+<h1>Signup!</h1>
+
+<%= form_for User.new do |f| %>
+
+  Name: <%= f.text_field :username %>
+  </br>
+  Password: <%= f.password_field :password %>
+  </br>
+  Password Confirmation: <%= f.password_field :password_confirmation %>
+  </br>
+  <%= f.submit "Submit" %>
+
+<% end %>
+
+<% @users.each do |user| %>
+  <%= link_to user.username, user_path( user.id ) %>
+  <%= user.password %>
+  </br>
+<% end %>
